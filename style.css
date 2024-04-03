@@ -1,0 +1,58 @@
+header{   background-color:#0B1C51;
+ color: white;}
+
+
+
+    /* Navigation Styling */
+nav {
+    
+    padding: 10px 0; /* Add some padding for better appearance */
+}
+
+ul {
+    list-style-type: none; /* Remove bullet points from list */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add space between list items */
+}
+
+a {
+    /* Text color of navigation links */
+    text-decoration: none; /* Remove default underline */
+    font-family: 'Montserrat', sans-serif; /* Set font to Montserrat */
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 52px;
+        display:flex;
+        justify-content: center;
+    }
+    ul{
+        display:flex;
+        justify-content: center  ;
+        
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    h1 {
+        font-size: 48px;
+      
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px
+    }
+}
